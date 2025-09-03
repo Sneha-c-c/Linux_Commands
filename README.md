@@ -99,8 +99,14 @@ head file.txt       # first 10 lines
 tail file.txt       # last 10 lines
 tail -f logfile.log # live monitor a log file
 ```
+### `echo`
+Show how to create and write to files.
+```bash
+echo "hello world!"> new.txt       # writes to the file
+echo "hello world!">> new.txt      # appends to the file
+```
 
----
+------
 
 ## ⚙️ System Information
 
